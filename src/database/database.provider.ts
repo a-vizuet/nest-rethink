@@ -1,5 +1,5 @@
 import * as rethink from 'rethinkdb';
-import { LoggerService } from 'src/logger/logger.service';
+import { LoggerService } from '../logger/logger.service';
 
 export const DatabaseProvider = {
   provide: 'RethinkProvider',
